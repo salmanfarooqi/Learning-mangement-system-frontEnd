@@ -72,8 +72,8 @@ export default function Home() {
   <CategoriesCard  name={'Devops'}/>
 </div>
     <div className="flex  gap-y-4 gap-3 mx-auto flex-wrap">
-      {data?.map((item)=>(
-        <div onClick={()=>router.push('/course/1')}><CourseCard chapters={item?.chapters} imageUrl={item?.imageUrl} name={item?.name}/></div>
+      {data?.map((item,index)=>(
+        <div key={index} onClick={()=>router.push('/course/1')}><CourseCard chapters={item?.chapters} imageUrl={item?.imageUrl} name={item?.name}/></div>
      
       ))}
    

@@ -9,7 +9,7 @@ const Index = () => {
         <StudentLayout>
             <div className="flex  flex-col  absolute left-[40%]    ">
                 <h1 className=" font-bold text-xl py-4">Name Your Course</h1>
-                <p className=" text-sm">what would you like to name to your course ? Don't worry , you change change this later</p>
+                <p className=" text-sm">what would you like to name to your course ? Dont worry , you change change this later</p>
 
 
                 <div className="py-3 flex flex-col space-y-1 ">

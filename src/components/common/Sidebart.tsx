@@ -21,7 +21,7 @@ const Sidebar=({data}:props)=>{
                     data?.map((item,index)=>(
 
 
-                        <div className="flex items-center py-4 px-4 gap-2">
+                        <div key={index} className="flex items-center py-4 px-4 gap-2">
                         <p>{item?.icon}</p>
                         <p>{item?.name}</p>
                         {/* <p>{item?.url}</p> */}
